@@ -8,6 +8,7 @@ En este informe se comparan dos implementaciones del cálculo del factorial: una
 
 | Valor de n | Tiempo Iterativo (ms) | Tiempo Recursivo (ms) | Consumo Memoria (Recursivo) |
 |---|---|---|---|
-| 10 | 0.001 | 0.002 | Bajo |
-| 50 | 0.002 | 0.004 | Moderado |
-| 100 | 0.005 | 0.010 | Alto |
+| 1 | 0.001 | 0.003 | Bajo |
+| 55 | 0.001 | 0.003 | Bajo |
+| 100 | 0.002 | 0.004 | Moderado |
+| 20 | 0.001 | 0.003 | Bajo |
