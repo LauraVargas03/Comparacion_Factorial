@@ -18,4 +18,12 @@ El cálculo del factorial puede beneficiarse de un enfoque basado en programaci�
 factorial :: Integer -> Integer
 factorial n = product [1..n]
 ```
+## ¿Por qué este código es eficiente?
+1. No usa recursión explícita, sino que emplea product, que el compilador optimiza internamente.
+2. Solo calcula los valores estrictamente necesarios.
+3. Es más legible y expresivo, en comparación con la versión iterativa o recursiva en C.
 
+## Conclusiones
+- El enfoque funcional es más claro y expresivo, eliminando la necesidad de bucles.
+- La recursión de cola mejora el uso de memoria, evitando desbordamiento de pila.
+- El uso de fold y product permite optimizaciones automáticas del compilador.
